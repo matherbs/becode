@@ -1,8 +1,13 @@
 *{
   background-color: rgb(63, 193, 191);
   font-family: georgia;
-  text-align: center;
   color: white;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 2vw;
 }
 
 header {
@@ -12,6 +17,33 @@ header {
   font-style: italic;
   font-size: 5vw;
 }
+
+h2 {
+  font-size: 4vw;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 3vw;
+  border: 2px solid white;
+}
+
+.pages p {
+  font-size: 2vw;
+}
+
+#colonne1{
+   width:49%;
+   height:auto;
+   float:left;
+}
+
+#colonne2{
+   width:49%;
+   height:auto;
+   float:right;
+}
+
 .menu {
   padding-right: 4%;
 }
@@ -20,33 +52,91 @@ header {
   margin-top: 2%;
   display: inline-block;
   width: 10%;
-  border: 2px solid green;
 }
 
 .menu img {
   width: 100%;
 }
 
-.page1{
-  display: none;
-  position: absolute;
-  width: 30%;
-  margin-left: 35%;
+
+#img {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
 }
 
-.page1 img {
+#page1 {
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#page1 img {
   width: 100%;
-  margin-top: 8%;
-  margin-bottom: 10%;
 }
 
-.page2 {
+#page2 {
   display: none;
   position: absolute;
+  width: 97%;
+  margin-bottom: 5%;
 }
 
-.page2 p {
-  font-size: 5vw;
+#page3 {
+  display: none;
+  position: absolute;
+  width: 97%;
+  margin-bottom: 5%;
+}
+
+#page4 {
+  display: none;
+  position: absolute;
+  width: 97%;
+  margin-bottom: 5%;
+}
+
+#page5 {
+  display: none;
+  position: absolute;
+  width: 97%;
+  margin-bottom: 5%;
+}
+
+.contact {
+  font-size: 2vw;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#fname {
+font-size: 1vw;
+background-color: white;
+margin-top: 3%;
+}
+
+#lname {
+font-size: 1vw;
+background-color: white;
+margin-top: 3%;
+}
+
+option {
+  background-color: white;
+  color: black;
+}
+
+#country {
+font-size: 1vw;
+background-color: white;
+margin-top: 3%;
+color: black;
+}
+
+#subject {
+font-size: 1vw;
+background-color: white;
+margin-top: 3%;
 }
 
 .touch {
