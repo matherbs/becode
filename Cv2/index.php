@@ -58,6 +58,7 @@
 
                     <div class="titre">
                       <h2>Compétences</h2>
+                      <h4>In Progress !!!</h4>
                     </div>
 
                     <div class="liste">

@@ -28,6 +28,12 @@ h3 {
   border: 2px solid white;
 }
 
+h4 {
+  width: 20%;
+  margin-left: 40%;
+  font-size: 2vw;
+  border: 2px solid white;
+}
 .pages p {
   font-size: 2vw;
 }
