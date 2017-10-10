@@ -50,10 +50,6 @@ h4 {
    float:right;
 }
 
-.menu {
-  padding-right: 4%;
-}
-
 .menu li {
   margin-top: 2%;
   display: inline-block;
@@ -62,6 +58,7 @@ h4 {
 
 .menu img {
   width: 100%;
+  height: auto;
 }
 
 
@@ -95,6 +92,15 @@ h4 {
   margin-bottom: 5%;
 }
 
+.work {
+width: 20%;
+padding-left: 40%;
+}
+
+#progress {
+  width: 100%;
+}
+
 #page4 {
   display: none;
   position: absolute;
@@ -118,18 +124,26 @@ h4 {
 #fname {
 font-size: 1vw;
 background-color: white;
-margin-top: 3%;
+color: black;
 }
 
 #lname {
 font-size: 1vw;
 background-color: white;
 margin-top: 3%;
+color: black;
 }
 
 option {
   background-color: white;
   color: black;
+}
+
+#sexe {
+font-size: 1vw;
+background-color: white;
+margin-top: 3%;
+color: black;
 }
 
 #country {
@@ -143,8 +157,12 @@ color: black;
 font-size: 1vw;
 background-color: white;
 margin-top: 3%;
+color: black;
 }
 
+textarea {
+  max-width: 30%;
+}
 .touch {
   position: absolute 1;
   margin-top: 10%;

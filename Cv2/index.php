@@ -58,7 +58,10 @@
 
                     <div class="titre">
                       <h2>Compétences</h2>
-                      <h4>In Progress !!!</h4>
+                    </div>
+
+                    <div class="work">
+                      <img id="progress" src="assets\images\menu\work-in-progress-1024x603.png" alt="in progress">
                     </div>
 
                     <div class="liste">
@@ -125,20 +128,35 @@
             <div class="container">
              <form action="assets\contact.php">
 
-                 <label class="stylecont" for="fname" >First Name</label>
+               <div class="titre">
+                 <h2>contact</h2>
+               </div>
+
+                 <label class="stylecont" for="fname" >First Name : </label>
                  <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
 
-                 <label class="stylecont" for="lname">Last Name</label>
+                 <label class="stylecont" for="lname">Last Name : </label>
                  <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
 
-                 <label class="stylecont" for="country">Country</label>
-                 <select id="country" name="country">
-                   <option value="Belgium">Belgium</option>
-                   <option value="France">France</option>
-                   <option value="Spain">Spain</option>
+                <label class="stylecont" for="sexe">sexe : </label>
+                <select id="sexe" name="sexe">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
                  </select><br>
 
-               <label class="stylecont" for="subject">Subject</label>
+                 <label class="stylecont" for="country">Country : </label>
+                 <select id="country" name="country">
+                   <option value="Belgium">Belgium</option>
+                   <option value="England">England</option>
+                   <option value="France">France</option>
+                   <option value="Germany">Germany</option>
+                   <option value="Holland">Holland</option>
+                   <option value="Italy">Italy</option>
+                   <option value="Spain">Spain</option>
+                   <option value="Other">Other...</option>
+                 </select><br>
+
+               <label class="stylecont" for="subject">Subject : </label>
                <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
 
                <input type="submit" value="Submit">
