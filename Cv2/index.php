@@ -176,7 +176,6 @@
         </div>
 
     </div>
-
     <script type="text/javascript" src="assets\js\cvjq.js"></script>
  <span id="bottom"></span>
   </body>
