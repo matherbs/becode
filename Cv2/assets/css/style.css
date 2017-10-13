@@ -78,14 +78,7 @@ h4 {
   width: 100%;
 }
 
-#page2 {
-  display: none;
-  position: absolute;
-  width: 97%;
-  margin-bottom: 5%;
-}
-
-#page3 {
+#page2, #page3, #page4, #page5 {
   display: none;
   position: absolute;
   width: 97%;
@@ -101,73 +94,36 @@ padding-left: 40%;
   width: 100%;
 }
 
-#page4 {
-  display: none;
-  position: absolute;
-  width: 97%;
-  margin-bottom: 5%;
-}
-
-#page5 {
-  display: none;
-  position: absolute;
-  width: 97%;
-  margin-bottom: 5%;
-}
-
 .contact {
   font-size: 2vw;
   width: 80%;
   margin-left: 10%;
 }
 
-#fname {
+#fname, #lname, #sexe, #country, #subject{
 font-size: 1vw;
 background-color: white;
 color: black;
+margin-top: 2%;
 }
-
-#lname {
-font-size: 1vw;
-background-color: white;
-margin-top: 3%;
-color: black;
-}
-
 option {
   background-color: white;
   color: black;
 }
 
-#sexe {
-font-size: 1vw;
-background-color: white;
-margin-top: 3%;
-color: black;
-}
-
-#country {
-font-size: 1vw;
-background-color: white;
-margin-top: 3%;
-color: black;
-}
-
-#subject {
-font-size: 1vw;
-background-color: white;
-margin-top: 3%;
-color: black;
-}
-
 textarea {
   max-width: 30%;
 }
+
 .touch {
   position: absolute 1;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 20%;
   width: 60%;
   font-style: italic;
   font-size: 3vw;
+}
+
+#subject, select, #fname, #lname {
+  border: 2px solid red;
 }

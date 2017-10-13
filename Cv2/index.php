@@ -42,10 +42,10 @@
 
                     <div class="liste">
                 			<ul>
-                        <li>Email: mathieuherbay@hotmail.com</li><br />
+                        <li>Email: <a href="mathieuherbay@hotmail.com">mathieuherbay@hotmail.com</a></li><br />
                         <li>GSM: 0476/73.28.68</li><br />
                 				<li>Age: 25 ans</li><br />
-                				<li>Habite: Bruxelles</li><br />
+                				<li>Habite: <a href="https://fr.wikipedia.org/wiki/Bruxelles">Bruxelles</a></li><br />
                 				<li>Statut: Etudiant</li>
                 			</ul>
                   </div>
@@ -159,7 +159,7 @@
                <label class="stylecont" for="subject">Subject : </label>
                <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
 
-               <input type="submit" value="Submit">
+               <input type="submit" id="submit" value="Submit">
 
              </form>
            </div>
@@ -179,4 +179,5 @@
     <script type="text/javascript" src="assets\js\cvjq.js"></script>
  <span id="bottom"></span>
   </body>
+
 </html>
