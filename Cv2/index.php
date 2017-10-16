@@ -45,7 +45,7 @@
                         <li>Email: <a href="mathieuherbay@hotmail.com">mathieuherbay@hotmail.com</a></li><br />
                         <li>GSM: 0476/73.28.68</li><br />
                 				<li>Age: 25 ans</li><br />
-                				<li>Habite: <a href="https://fr.wikipedia.org/wiki/Bruxelles">Bruxelles</a></li><br />
+                				<li>Habite: <a href="https://fr.wikipedia.org/wiki/Bruxelles" target="_blank">Bruxelles</a></li><br />
                 				<li>Statut: Etudiant</li>
                 			</ul>
                   </div>
